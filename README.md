@@ -1,9 +1,12 @@
-# Sistema para controle de dois semáforos
+# Two traffic light control system
 
-<p>Este projeto consiste em um sistema para controlar dois semáforos em um cruzamento de duas vias simples. Esse sistema foi implementado para o hardware MSP430F1121. Além do código em C, o projeto também contém a simulação no programa Proteus 8</p>
-<p>Cada semáforo foi configurado para ficar 10 segundos com a luz verde acesa, 5 segundos com a luz amarela acesa e 15 segundos com a luz vermelha acesa. Essa configuração pode ser mudada por meio dos argumentos das funções __delay_cycles. Cada unidade dentro dessa função equivale a 1µs, ou seja, 1000000 unidades equivalem a 1 segundo.</p>
-<p>Simulação do sistema (Proteus 8):</p>
-<h1>
-    <img alt="Readme" title="Readme" src="./gif_semaforo.gif">
-</h1>
-<p>O programa foi desenvolvido usando a versão de teste da IDE IAR Embedded Workbench for MSP430, disponível no link https://www.iar.com/products/architectures/iar-embedded-workbench-for-msp430/iar-embedded-workbench-for-msp430---free-trial-version/</p>
+## About
+This project consists in a system to control two traffic lights at a simple two-way intersection. This system was implemented for the MSP430F1121 hardware. In addition to the C code, the project also contains simulation in the Proteus 8 software.
+Each traffic light was configured to spend 10 seconds with the green light on, 5 seconds with the yellow light on and 15 seconds with the red light on. This configuration can be changed through the arguments of the __delay_cycles functions. Each unit within this function is equivalent to 1µs, that is, 1000000 units are equivalent to 1 second.
+
+## System simulation (Proteus 8):
+<img alt="Systems simulations" title="System simulation" src="./gif_semaforo.gif">
+
+
+## Additional Information
+The program was developed using the free trial version of IAR Embedded Workbench for MSP430 IDE, available at https://www.iar.com/products/architectures/iar-embedded-workbench-for-msp430/iar-embedded-workbench-for-msp430---free-trial-version/.
